@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <script type="text/javascript" src="bundle.js"></script> -->
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Journal</h1>
+    <form id="journal-form">
+      <label for="title">Enter your title:</label>
+      <input id="title" type="text" class="form-control">
+      <label for="content">Enter your content:</label>
+      <textarea class="form-control" id="content" rows="3"></textarea><br>
+      <button class="btn btn-info" type="submit">Submit</button>
+    </form>
+    <h3>Number of words in the content: <span class="count"></span></h3>
+      <hr>
+    <h3>Number of vowels in the content: <span class="vowelcount"></span></h3>
+    <hr>
+    <h3>Number of consonants in the content: <span class="consonantcount"></span></h3>
+    <h3>first 8 words :: <span class="word"></span></h3>
+  </div>
+  </body>
+</html>
